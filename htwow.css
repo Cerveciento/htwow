@@ -1,0 +1,261 @@
+
+html {
+    color: rgb(204, 204, 204);
+    background-color: #141414;
+}
+body {
+    font-size: 14px;
+    font-family: sans,Arial,helvetica neue,Helvetica,sans-serif	;
+}
+a {
+    color: #ffd100;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:visited {
+    color: #bf9100;
+}
+a:hover {
+    color: #fff;
+}
+
+table {
+    width: 100%;
+}
+td {
+    vertical-align: top;
+}
+form, pre {
+    display: inline;
+}
+ol, ul {
+    padding-left: 3ch;
+    margin: 0;
+}
+.sql {
+    padding: 1ch;
+}
+.importante {
+    color: tomato;
+}
+.primero {
+    font-weight: bold;
+    font-size: 20px;
+}
+.negrilla {
+    font-weight: bold;
+}
+.aviso {
+    background-color: tomato;
+}
+.avisoVerde {
+    background-color: green;
+}
+.avisoAmarillo {
+    background-color: #bf9100;
+}
+.tituloPagina {
+    font-size: 18px;
+}
+.parteSuperior, .parteInferior {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.caja {
+    flex-grow: 1;
+    padding: 1ch;
+    margin: 1ch;
+    border: 1px solid #404040;
+    border-radius: 2px;
+    background-color: #242424;
+}
+.apiladoVertical {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    background-color: #3e3e3e;
+    color: white;
+    border: none;
+}
+
+
+.questStart {
+    background: url(img/questStart.gif) left center no-repeat;
+    padding-left: 17px;
+}
+.questEnd {
+    background: url(img/questEnd.gif) left center no-repeat;
+    padding-left: 17px;
+}
+.iconoHorda {
+    background: url(img/horda.png) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoAlianza {
+    background: url(img/alianza.png) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+
+.iconoGuerrero {
+    background: url(img/clase_guerrero.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoPaladin {
+    background: url(img/clase_paladin.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoCazador {
+    background: url(img/clase_cazador.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoPicaro {
+    background: url(img/clase_picaro.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoSacerdote {
+    background: url(img/clase_sacerdote.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoCaballeroMuerte {
+    background: url(img/clase_caballero_muerte.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoChaman {
+    background: url(img/clase_chaman.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoMago {
+    background: url(img/clase_mago.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoBrujo {
+    background: url(img/clase_brujo.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoDruida {
+    background: url(img/clase_druida.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+
+.iconoHumano {
+    background: url(img/raza_humano_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoOrco {
+    background: url(img/raza_orco_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoEnano {
+    background: url(img/raza_enano_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoElfoNoche {
+    background: url(img/raza_elfo_noche_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoNoMuerto {
+    background: url(img/raza_no_muerto_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoTauren {
+    background: url(img/raza_tauren_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoGnomo {
+    background: url(img/raza_gnomo_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoTrol {
+    background: url(img/raza_trol_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoElfoSangre {
+    background: url(img/raza_elfo_sangre_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+.iconoDraenei {
+    background: url(img/raza_draenei_hombre.gif) left center no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    min-width: 17px;
+    min-height: 16px;
+}
+
+.monedaOro {
+    padding-right: 15px;
+    background: url(img/moneda_oro.gif) right center no-repeat;
+}
+.monedaPlata {
+    padding-right: 15px;
+    background: url(img/moneda_plata.gif) right center no-repeat;
+}
+.monedaCobre {
+    padding-right: 15px;
+    background: url(img/moneda_cobre.gif) right center no-repeat;
+}

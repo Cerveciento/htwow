@@ -21,7 +21,7 @@ echo "<div class=\"parteSuperior\" style=\"flex-flow: wrap;\">";
 echo "<div class=\"caja\">";
 echo "<div style=\"text-align:center;\"><a href=\"php/quest.php\">" . $locale[TXT_MIS_MISIONES] . "</a></div>";
 $REQ->accion = "estadisticas";
-include("paginas/quest.php");
+include("php/quest.php");
 echo "</div>";
 
 echo "</div>";

@@ -1,11 +1,11 @@
 <?php
-include_once "config.php";
-include_once "constantes.php";
-include_once "class.BaseDatos.php";
-include_once "class.Request.php";
-include_once "class.Tabla.php";
-include_once "funciones.php";
-include_once "iniciar.php";
+include_once "../config.php";
+include_once "../constantes.php";
+include_once "../class.BaseDatos.php";
+include_once "../class.Request.php";
+include_once "../class.Tabla.php";
+include_once "../funciones.php";
+include_once "../iniciar.php";
 
 $versionWow = "3.3.5a WotLK";
 $origenInfo = "quest";

@@ -19,7 +19,7 @@ $REQ = Request::getInstancia();
 echo "<div class=\"parteSuperior\" style=\"flex-flow: wrap;\">";
 // -------------- MISIONES -------------------
 echo "<div class=\"caja\">";
-echo "<div style=\"text-align:center;\"><a href=\"paginas/quest.php\">" . $locale[TXT_MIS_MISIONES] . "</a></div>";
+echo "<div style=\"text-align:center;\"><a href=\"php/quest.php\">" . $locale[TXT_MIS_MISIONES] . "</a></div>";
 $REQ->accion = "estadisticas";
 include("paginas/quest.php");
 echo "</div>";

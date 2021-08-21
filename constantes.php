@@ -11,38 +11,30 @@ const TXT_ANTERIOR = 7;
 const TXT_NO_SIGUIENTE = 8;
 const TXT_NO_ANTERIOR = 9;
 const TXT_TOTALES = 10;
-// Sustituciones
-const TXT_NOMBRE = 11;
-const TXT_RAZA = 12;
-const TXT_CLASE = 13;
 // Buscador
-const TXT_LUGAR = 14;
-const TXT_POI = 15;
-const TXT_CRIATURA = 16;
-const TXT_OBJETO = 17;
-const TXT_ITEM = 18;
-const TXT_BUSCAR = 19;
+const TXT_LUGAR = 11;
+const TXT_POI = 12;
+const TXT_CRIATURA = 13;
+const TXT_OBJETO = 14;
+const TXT_ITEM = 15;
+const TXT_BUSCAR = 16;
+// Sustituciones
+const TXT_NOMBRE = 500;
+const TXT_RAZA = 501;
+const TXT_CLASE = 502;
+// Paginas
+const PAG_MISION = 1;
+
 // Textos de las misiones
-const TXT_MIS_MISION = 100;
-const TXT_MIS_MISIONES = 101;
-const TXT_MIS_TITULO = 102;
-const TXT_MIS_DESCRIPCION = 103;
-const TXT_MIS_OBJETIVOS = 104;
-const TXT_MIS_OBJETIVO_1 = 105;
-const TXT_MIS_OBJETIVO_2 = 106;
-const TXT_MIS_OBJETIVO_3 = 107;
-const TXT_MIS_OBJETIVO_4 = 108;
-const TXT_MIS_PROGRESO = 109;
-const TXT_MIS_TERMINACION = 110;
-const TXT_MIS_EMPIEZA = 111;
-const TXT_MIS_TERMINA = 112;
-const TXT_MIS_SERIE = 113;
-const TXT_MIS_REQUIERE = 114;
-const TXT_MIS_ABRE = 115;
-const TXT_MIS_OBJETIVO = 116;
-const TXT_MIS_MATADO = 117;
-const TXT_MIS_RECOMPENSA = 118;
-const TXT_MIS_ELEGIR_RECOMPENSA = 119;
+const TXT_MIS_EMPIEZA = 1000;
+const TXT_MIS_TERMINA = 1001;
+const TXT_MIS_SERIE = 1002;
+const TXT_MIS_REQUIERE = 1003;
+const TXT_MIS_ABRE = 1004;
+const TXT_MIS_OBJETIVO = 1005;
+const TXT_MIS_MATADO = 1006;
+const TXT_MIS_RECOMPENSA = 1007;
+const TXT_MIS_ELEGIR_RECOMPENSA = 1008;
 
 // -----------------------------------------------------
 // Razas

@@ -6,7 +6,7 @@
 class BaseDatos {
     /**
      * Número de filas afectadas por la última sentencia SQL
-     * @var integer 
+     * @var int 
      */
     public $filasAfectadas = 0;
     /**

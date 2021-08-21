@@ -8,6 +8,8 @@
 include "config.php";
 include "constantes.php";
 include "class.BaseDatos.php";
+include "class.Campo.php";
+include "class.Pagina.php";
 include "class.Request.php";
 include "funciones.php";
 include "iniciar.php";
@@ -18,10 +20,10 @@ $REQ = Request::getInstancia();
 
 echo "<div class=\"parteSuperior\" style=\"flex-flow: wrap;\">";
 // -------------- MISIONES -------------------
+$mision = new Pagina(PAG_MISION);
 echo "<div class=\"caja\">";
-echo "<div style=\"text-align:center;\"><a href=\"php/quest.php\">" . $locale[TXT_MIS_MISIONES] . "</a></div>";
-$REQ->accion = "estadisticas";
-include("php/quest.php");
+echo "<div style=\"text-align:center;\"><a href=\"php/quest.php\">" . $mision->getTituloPlural() . "</a></div>";
+echo $mision->estadisticas();
 echo "</div>";
 
 echo "</div>";

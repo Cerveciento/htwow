@@ -16,23 +16,12 @@ $locale[TXT_RAZA]         = "raza";
 $locale[TXT_CLASE]        = "clase";
 // Buscador
 $locale[TXT_LUGAR]        = "Lugar";
-$locale[TXT_POI]          = "Punto de Interes";
+$locale[TXT_POI]          = "Punto de Interés";
 $locale[TXT_CRIATURA]     = "Criatura";
 $locale[TXT_OBJETO]       = "Objeto";
 $locale[TXT_ITEM]         = "Item";
 $locale[TXT_BUSCAR]       = "Buscar";
 // Misiones
-$locale[TXT_MIS_MISION]      = "Misión";
-$locale[TXT_MIS_MISIONES]    = "Misiones";
-$locale[TXT_MIS_TITULO]      = "Título";
-$locale[TXT_MIS_DESCRIPCION] = "Descripción";
-$locale[TXT_MIS_OBJETIVOS]   = "Objetivos";
-$locale[TXT_MIS_OBJETIVO_1]  = "Objetivo 1";
-$locale[TXT_MIS_OBJETIVO_2]  = "Objetivo 2";
-$locale[TXT_MIS_OBJETIVO_3]  = "Objetivo 3";
-$locale[TXT_MIS_OBJETIVO_4]  = "Objetivo 4";
-$locale[TXT_MIS_PROGRESO]    = "Progreso";
-$locale[TXT_MIS_TERMINACION] = "Terminación";
 $locale[TXT_MIS_EMPIEZA]     = "Empieza";
 $locale[TXT_MIS_TERMINA]     = "Termina";
 $locale[TXT_MIS_SERIE]       = "Serie";
